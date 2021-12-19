@@ -36,7 +36,7 @@ app.post("/scan", (req, res) => {
 });
 
 // Setting up the port for listening requests
-const port = 5000;
+const port = 3002;
 app.listen(port, () => console.log("Server at 5000"));
 const qrcode = require('qrcode-terminal');
 const { Client } = require('whatsapp-web.js');
