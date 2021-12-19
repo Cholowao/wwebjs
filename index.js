@@ -64,7 +64,7 @@ wss.on('connection', ws => {
 
 client.on('qr', qr => {
     fs.writeFileSync('qr.txt', qr)
-    qrcode.generate(qr, {small: true});
+    // qrcode.generate(qr, {small: true});
 });
 
 client.on('ready', () => {
